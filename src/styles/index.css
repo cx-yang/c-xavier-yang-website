@@ -1,0 +1,20 @@
+header {
+  background-color: #312e2e;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.page {
+  background-color: #312e2e;
+  font-family: 'Georgia', ' serif', ' Segoe UI', ' Roboto', ' Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans';
+}
+
+#footer {
+  color: white;
+}
+
+h1 {
+  color: blue;
+}

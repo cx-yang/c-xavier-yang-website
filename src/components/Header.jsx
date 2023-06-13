@@ -1,7 +1,7 @@
 import React from "react";
 
 function Header(props) {
-    return <div>
+    return <div class="page">
         <header class="d-flex justify-content-center py-3 fixed-top mb-5" id="header">
             <ul class="nav nav-pills">
                 <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>

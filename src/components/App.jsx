@@ -4,13 +4,8 @@ import Footer from "./Footer";
 import About from "./About";
 import Projects from "./Projects";
 
-import Note from "./Note"
-
 function App() {
     const scrollTo = useRef();
-    const scrollToAbout = useRef();
-    const scrollToProjects = useRef();
-    const scrollToContact = useRef();
 
     return (
         <div class="page">

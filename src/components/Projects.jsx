@@ -1,5 +1,7 @@
 import React from "react";
-import ame from "../images/Ame.JPEG"
+import ame from "../images/Ame.JPEG";
+import mapty from "../images/mapty.png";
+import mtg from "../images/mtg-uncards.png";
 
 function Projects() {
     //have image pop out on hover
@@ -14,13 +16,13 @@ function Projects() {
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                        <img src={mtg} class="bd-placeholder-img card-img-top" width="80%" height="225" />
                         <div class="card-body">
-                            <p class="card-text">Anime Lookup</p>
-                            <p class="card-text">Look through lists of anime to watch. Developed with Node.js and AniList API</p>
+                            <p class="card-text">MTG Un-Cards</p>
+                            <p class="card-text">Look though legal and banned Cards in Magic the Gathering. Developed with Express.js and magicthegathering.io API</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a class="link-primary" href="https://github.com/CX-Yang/mtg-un-cards">View Repo</a></button>
                                 </div>
                             </div>
                         </div>
@@ -28,33 +30,19 @@ function Projects() {
                 </div>
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img src={ame} class="bd-placeholder-img card-img-top" width="80%" height="225" />
+                        <img src={mapty} class="bd-placeholder-img card-img-top" width="80%" height="225" />
                         <div class="card-body">
-                            <p class="card-text">Workout Map</p>
-                            <p class="card-text">Set distances for your workouts. Developed with Node.js</p>
+                            <p class="card-text">Mapty</p>
+                            <p class="card-text">Set distances for your workouts. Developed with javascript and Leaflet API</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a class="link-primary" href="https://github.com/CX-Yang/Mapty">View Repo</a></button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
 
-                        <div class="card-body">
-                            <p class="card-text">MTG Oathbreaker (Coming Soon)</p>
-                            <p class="card-text">Search for popular cards for the Oathbreaker format.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

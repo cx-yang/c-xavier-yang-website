@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/c-xavier-yang-website/static/css/main.66d36e88.css",
+    "main.js": "/c-xavier-yang-website/static/js/main.bc8939ef.js",
+    "static/js/787.9ee181c0.chunk.js": "/c-xavier-yang-website/static/js/787.9ee181c0.chunk.js",
+    "static/media/mapty.png": "/c-xavier-yang-website/static/media/mapty.77f6cfbb8afdb60150c1.png",
+    "static/media/mtg-uncards.png": "/c-xavier-yang-website/static/media/mtg-uncards.939f2d2382e765bd46ab.png",
+    "static/media/Ame.JPEG": "/c-xavier-yang-website/static/media/Ame.bf55942fee84092839c4.JPEG",
+    "index.html": "/c-xavier-yang-website/index.html",
+    "main.66d36e88.css.map": "/c-xavier-yang-website/static/css/main.66d36e88.css.map",
+    "main.bc8939ef.js.map": "/c-xavier-yang-website/static/js/main.bc8939ef.js.map",
+    "787.9ee181c0.chunk.js.map": "/c-xavier-yang-website/static/js/787.9ee181c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66d36e88.css",
+    "static/js/main.bc8939ef.js"
+  ]
+}

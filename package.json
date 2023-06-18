@@ -1,8 +1,8 @@
 {
-  "homepage": "http://cx-yang.github.io/",
+  "homepage": "http://cx-yang.github.io/c-xavier-yang-website",
   "name": "c-xavier-yang",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

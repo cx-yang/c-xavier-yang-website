@@ -1,5 +1,4 @@
 import React from "react";
-import ame from "../images/Ame.JPEG";
 import mapty from "../images/mapty.png";
 import mtg from "../images/mtg-uncards.png";
 
@@ -17,7 +16,7 @@ function Projects() {
                 <div class="col">
                     <a href="https://github.com/CX-Yang/mtg-un-cards" class="text-decoration-none">
                         <div class="card shadow-sm">
-                            <img src={mtg} class="bd-placeholder-img card-img-top" width="80%" height="225" />
+                            <img src={mtg} class="bd-placeholder-img card-img-top" loading="lazy" width="80%" height="225" />
                             <div class="card-body">
                                 <p class="card-text">MTG Un-Cards</p>
                                 <p class="card-text">Look though legal and banned Cards in Magic the Gathering. Developed with Express.js and magicthegathering.io API</p>
@@ -33,7 +32,7 @@ function Projects() {
                 <div class="col">
                     <a href="https://github.com/CX-Yang/Mapty" class="text-decoration-none">
                         <div class="card shadow-sm">
-                            <img src={mapty} class="bd-placeholder-img card-img-top" width="80%" height="225" />
+                            <img src={mapty} class="bd-placeholder-img card-img-top" loading="lazy" width="80%" height="225" />
                             <div class="card-body">
                                 <p class="card-text">Mapty</p>
                                 <p class="card-text">Set distances for your workouts. Developed with javascript and Leaflet API</p>

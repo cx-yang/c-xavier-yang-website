@@ -2,15 +2,15 @@ import React from "react";
 
 function Footer(props) {
 
-    return <div class="container" id="footer">
+    return (<div class="container" id="footer">
         <footer class="py-5">
             <div class="row">
                 <div class="col-6 col-md-2 mb-3">
                     <h5>Section</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#projects" class="nav-link p-0 ">Projects</a></li>
-                        <li class="nav-item mb-2"><a href="#contact" class="nav-link p-0 ">Contact</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 link-light">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#projects" class="nav-link p-0 link-light">Projects</a></li>
+                        <li class="nav-item mb-2"><a href="#contact" class="nav-link p-0 link-light">Contact</a></li>
                     </ul>
                 </div>
 
@@ -34,7 +34,7 @@ function Footer(props) {
                 </div>
             </div>
         </footer>
-    </div>;
+    </div>);
 }
 
 export default Footer;

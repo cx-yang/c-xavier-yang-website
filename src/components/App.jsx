@@ -8,6 +8,7 @@ function App() {
     const scrollTo = useRef();
 
     return (
+        <>
         <div class="page">
             <Header target={scrollTo} />
             {/* {<Note scroll={scrollTo} target={scrollTo} />} */}
@@ -15,6 +16,7 @@ function App() {
             <Projects />
             <Footer target={scrollTo} />
         </div>
+        </>
     );
 }
 

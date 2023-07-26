@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.66d36e88.css",
-    "main.js": "/static/js/main.02af9b2a.js",
+    "main.css": "/static/css/main.120747b8.css",
+    "main.js": "/static/js/main.43f75fcc.js",
     "static/js/787.9ee181c0.chunk.js": "/static/js/787.9ee181c0.chunk.js",
     "static/media/mapty.png": "/static/media/mapty.77f6cfbb8afdb60150c1.png",
     "static/media/mtg-uncards.png": "/static/media/mtg-uncards.939f2d2382e765bd46ab.png",
-    "static/media/Ame.JPEG": "/static/media/Ame.bf55942fee84092839c4.JPEG",
     "index.html": "/index.html",
-    "main.66d36e88.css.map": "/static/css/main.66d36e88.css.map",
-    "main.02af9b2a.js.map": "/static/js/main.02af9b2a.js.map",
+    "main.120747b8.css.map": "/static/css/main.120747b8.css.map",
+    "main.43f75fcc.js.map": "/static/js/main.43f75fcc.js.map",
     "787.9ee181c0.chunk.js.map": "/static/js/787.9ee181c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66d36e88.css",
-    "static/js/main.02af9b2a.js"
+    "static/css/main.120747b8.css",
+    "static/js/main.43f75fcc.js"
   ]
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import mapty from "../images/mapty.png";
 import mtg from "../images/mtg-uncards.png";
+import games from "../images/games.png"
 
 function Projects() {
     //have image pop out on hover
@@ -23,7 +24,7 @@ function Projects() {
                                 Developed with Express.js and MTG SDK</p><br/>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary"><a class="link-primary" href="https://github.com/CX-Yang/mtg-un-cards">View Repo</a></button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"><a class="link-primary" href="https://github.com/CX-Yang/mtg-un-cards">View</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +41,23 @@ function Projects() {
                                 Developed with javascript and Leaflet API</p><br/>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary text-decoration-none"><a href="https://github.com/CX-Yang/Mapty">View Repo</a></button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary text-decoration-none"><a href="https://github.com/CX-Yang/Mapty">View</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://cx-yang.itch.io" class="text-decoration-none">
+                        <div class="card shadow-sm">
+                            <img src={games} class="bd-placeholder-img card-img-top" loading="lazy" width="80%" height="225" />
+                            <div class="card-body">
+                                <p class="card-text">Games</p>
+                                <p class="card-text">Here are a few games that I have developed with Godot! All games are free and on Itch.io</p><br/>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary text-decoration-none"><a href="https://cx-yang.itch.io">View</a></button>
                                     </div>
                                 </div>
                             </div>
